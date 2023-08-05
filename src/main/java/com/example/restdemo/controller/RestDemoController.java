@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class RestDemoController {
 
     private static AmazonSNSClient amazonSNSClient = null;
-    private static String SNS_TOPIC_ARN = "arn:aws:sns:ap-southeast-2:548453444712:TestTopic";
+    private static String SNS_TOPIC_ARN = "";
     private static String EMAIL_SUBJECT = "Unsubscribe Email!!";
     private static String EMAIL_BODY = "Please click Here to unsubscribe from emails. http://localhost:3000/";
 
